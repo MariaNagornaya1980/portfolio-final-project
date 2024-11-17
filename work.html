@@ -27,9 +27,39 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>My Portfolio</title>
+    <meta name="description" content="Maria's projects" />
+    <title>Look at my projects</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+        /></a>
+        <img
+          src="images/logo-small.jpeg"
+          class="logo d-block d-md-none"
+          alt="SheCodes logo"
+        />
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="about Maria">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Maria's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="ways to contact Maria">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="about-content">
         <h1 class="mb-5">Take a look at what I have been working on!</h1>
@@ -78,6 +108,47 @@
           </div>
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Enquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="http://" class="btn btn-branding">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mariawright205@gmail"
+            class="e-mail-link"
+            title="email Maria"
+          >
+            mariawright205@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://github.com/MariaNagornaya1980" target="_blank"
+            ><i class="fa-brands fa-github" title="github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/maria-nagornaya-54a50619/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin" title="linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Maria Nagornaya, and it is
+          <a
+            href="https://github.com/MariaNagornaya1980/portfolio-final-project"
+            target="_blank"
+            >open-sourced</a
+          >
+          ✌🏼
+        </p>
+      </footer>
     </div>
   </body>
 </html>

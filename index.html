@@ -27,29 +27,38 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Maria Nagornaya is a front-end engineer based in US"
+    />
+    <title>Front-End Developer - Maria Nagornaya</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+        /></a>
         <img
           src="images/logo-small.jpeg"
           class="logo d-block d-md-none"
-          alt=""
+          alt="SheCodes logo"
         />
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="about Maria">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Maria's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="ways to contact Maria">Contact</a>
           </li>
         </ul>
       </nav>
@@ -59,7 +68,9 @@
       <h1>Maria Nagornaya</h1>
       <h2 class="mb-5">Front-end developer based in United States🇺🇸</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Maria"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -68,7 +79,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt Project" />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -79,7 +90,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
@@ -93,16 +106,22 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img src="images/weather.png" class="img-fluid" alt="Weather App" />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary App"
+          />
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -113,40 +132,52 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Enquiry</h4>
+            <h3>Work Enquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="http://" class="btn btn-branding">Contact me</a>
+            <a href="/" class="btn btn-branding">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:mariawright205@gmail" class="e-mail-link">
+          <a
+            href="mailto:mariawright205@gmail"
+            class="e-mail-link"
+            title="email Maria"
+          >
             mariawright205@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/mashulya80" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
           <a href="https://github.com/MariaNagornaya1980" target="_blank"
-            ><i class="fa-brands fa-github"></i
+            ><i class="fa-brands fa-github" title="github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/maria-nagornaya-54a50619/"
             target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
+            ><i class="fa-brands fa-linkedin" title="linkedin"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Maria Nagornaya, and it is
+          <a
+            href="https://github.com/MariaNagornaya1980/portfolio-final-project"
+            target="_blank"
+            >open-sourced</a
+          >
+          ✌🏼
+        </p>
       </footer>
     </div>
   </body>
