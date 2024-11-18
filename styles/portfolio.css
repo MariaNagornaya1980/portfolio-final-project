@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 26px;
 }
 
@@ -132,7 +132,7 @@ nav a {
   font-size: 12px;
 }
 nav a:hover,
-nav li.active {
+nav li.active a {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
